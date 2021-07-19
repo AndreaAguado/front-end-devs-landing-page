@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   --dark-green: #099d8d;
   --light-green: #14d9c4;
@@ -159,12 +160,26 @@
 .members {
   background-color: var(--white);
   font-family: "Rubik", sans-serif;
+=======
+@font-face {
+  font-family: "MyWebFont";
+  src: url("myfont.woff2") format("woff2");
+}
+
+.members {
+  background-color: #ffffff;
+  font-family: "Rubik-Medium", sans-serif;
+>>>>>>> c3ac4ff3b0069e6aeae43a693fa75356a8e22590
   text-align: center;
 }
 
 #who-we-are {
+<<<<<<< HEAD
   color: var(--dark-green);
   font-weight: 500;
+=======
+  color: #099d8d;
+>>>>>>> c3ac4ff3b0069e6aeae43a693fa75356a8e22590
   font-size: 24px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -173,7 +188,10 @@
   width: 180px;
   height: 180px;
   padding-bottom: 15px;
+<<<<<<< HEAD
   border-radius: 20px;
+=======
+>>>>>>> c3ac4ff3b0069e6aeae43a693fa75356a8e22590
 }
 
 .foto_adalaber {
@@ -181,23 +199,37 @@
   height: 180px;
   padding-bottom: 15px;
   padding-top: 45px;
+<<<<<<< HEAD
   border-radius: 20px;
 }
 
 .parr {
   color: var(--dark-grey);
   font-family: "Open Sans", sans-serif;
+=======
+}
+
+.parr {
+  color: #54585a;
+  font-family: "OpenSans-Regular", sans-serif;
+>>>>>>> c3ac4ff3b0069e6aeae43a693fa75356a8e22590
   font-size: 16px;
 }
 
 .style_name {
+<<<<<<< HEAD
   color: var(--black);
   font-family: "Open Sans", sans-serif;
+=======
+  color: black;
+  font-family: "OpenSans-Regular", sans-serif;
+>>>>>>> c3ac4ff3b0069e6aeae43a693fa75356a8e22590
   font-size: 20px;
 }
 
 .icon_sm {
   font-size: small;
+<<<<<<< HEAD
   padding-top: 15px;
 }
 
@@ -247,3 +279,10 @@
 }
 
 /* END FOOTER */
+=======
+  display: inline;
+  width: 124px;
+  height: 30px;
+  padding-top: 15px;
+}
+>>>>>>> c3ac4ff3b0069e6aeae43a693fa75356a8e22590
