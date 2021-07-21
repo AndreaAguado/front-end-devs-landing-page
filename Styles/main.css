@@ -73,6 +73,12 @@
   width: 100%;
   height: 421px;
 }
+.hero-bg-768 {
+  display: none;
+}
+.hero-bg-1200 {
+  display: none;
+}
 
 /* END HERO */
 
@@ -85,6 +91,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
 .motto {
@@ -114,12 +121,12 @@
 .about-us-container {
   text-align: center;
   background-color: var(--white);
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 
 .about-us-title {
-  position: relative;
-  text-align: center;
+  /* position: relative;
+  text-align: center; */
   margin-top: 497px;
   margin-bottom: 15px;
   margin-right: auto;
@@ -145,11 +152,11 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  transform: rotate(45deg);
+  transform: rotate(45deg) translate(10px, 10px);
   width: 30px;
   height: 30px;
   background-color: #14d9c4;
-  margin-top: -30px;
+  /* margin-top: -14px; */
 }
 
 /* END SQUARE */
@@ -252,6 +259,55 @@
 /* END FOOTER */
 
 @media all and (min-width: 768px) {
+  .container {
+    margin: 0 45px;
+  }
+  /* START HERO */
+  .hero-bg {
+    display: none;
+  }
+  .hero-bg-768 {
+    display: inline-block;
+    top: 0px;
+    width: 100%;
+    height: 421px;
+  }
+  .hero-bg-1200 {
+    display: none;
+  }
+  /* END HERO */
+
+  /* START MOTTO */
+  .motto-container {
+    width: 441px;
+    height: 80px;
+    opacity: 0.8;
+    top: 341px;
+    margin-left: 46px;
+    margin-right: 281px;
+  }
+  .motto {
+    margin: 15px 30px;
+  }
+
+  /* END MOTTO */
+
+  /* START ABOUT US */
+  .about-us {
+    background-color: var(--white);
+  }
+  .about-us-container {
+    background-color: var(--white);
+    margin-top: 15px;
+    margin-bottom: 44px;
+    padding-bottom: 0px;
+  }
+  .about-us-title {
+    margin-top: 45px;
+    margin-bottom: 15px;
+  }
+  /* END ABOUT US */
+
   /* START ADALABERS */
   /*.members {
     background-color: var(--white);
@@ -308,4 +364,25 @@
 
 /* DESKTOP Y TABLET */
 @media all and (min-width: 1200px) {
+  /* START HERO */
+  .hero-bg {
+    display: none;
+  }
+  .hero-bg-768 {
+    display: none;
+  }
+  .hero-bg-1200 {
+    display: inline-block;
+    top: 0px;
+    width: 100%;
+    height: 550px;
+  }
+  /* END HERO */
+
+  /* START MOTTO */
+
+  /* END MOTTO */
+
+  /* START ABOUT US */
+  /* END ABOUT US */
 }
