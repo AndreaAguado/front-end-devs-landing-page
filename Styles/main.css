@@ -305,3 +305,7 @@
   }
   /* START ADALABERS */
 }
+
+/* DESKTOP Y TABLET */
+@media all and (min-width: 1200px) {
+}
