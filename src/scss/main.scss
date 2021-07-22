@@ -312,6 +312,7 @@
     padding-bottom: 0px;
   }
   .about-us-title {
+    color: var(--dark-green);
     margin-top: 45px;
     margin-bottom: 15px;
   }
@@ -373,6 +374,9 @@
 
 /* DESKTOP Y TABLET */
 @media all and (min-width: 1200px) {
+  .container {
+    margin: 0 300px;
+  }
   /* START HERO */
   .hero-bg {
     display: none;
@@ -389,9 +393,35 @@
   /* END HERO */
 
   /* START MOTTO */
-
+  .motto-container {
+    width: 574px;
+    height: 90px;
+    opacity: 0.8;
+    top: 460px;
+    margin-left: 138px;
+    margin-right: 488px;
+  }
+  .motto {
+    margin: 15px 30px;
+    font-size: 24px;
+    line-height: 30px;
+  }
   /* END MOTTO */
 
   /* START ABOUT US */
+  .about-us {
+    background-color: var(--white);
+  }
+  .about-us-container {
+    background-color: var(--white);
+    margin-top: 15px;
+    margin-bottom: 60px;
+    padding-bottom: 0px;
+  }
+  .about-us-title {
+    color: var(--dark-green);
+    margin-top: 45px;
+    margin-bottom: 15px;
+  }
   /* END ABOUT US */
 }
