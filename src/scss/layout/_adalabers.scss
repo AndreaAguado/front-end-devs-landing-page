@@ -1,0 +1,136 @@
+.members {
+  background-color: var(--white);
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 15px;
+  text-align: center;
+}
+
+#who-we-are {
+  color: var(--dark-green);
+  font-weight: 500;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.box_members {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box_foto {
+  padding-bottom: 15px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*.foto_adalaber1 {
+  width: 180px;
+  height: 180px;
+}
+*/
+.foto_adalaber {
+  width: 180px;
+  height: 180px;
+}
+
+.box_description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.parr {
+  color: var(--dark-grey);
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.style_name {
+  color: var(--black);
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.icon_sm {
+  font-size: 16px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  color: var(--dark-green);
+}
+
+.icon_color {
+  color: var(--dark-green);
+}
+
+@media all and (min-width: 768px) {
+  .member {
+    margin: 0px 45px;
+  }
+
+  #who-we-are {
+    margin: 45px 0px;
+  }
+  .member_768_left {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  }
+  .member_768_right {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: rigth;
+  }
+
+  .foto_adalaber {
+    width: 205px;
+    height: 205px;
+    margin: 0px 15px;
+  }
+
+  .box_description {
+    text-align: left;
+    margin: 0px 15px;
+  }
+
+  .right {
+    text-align: right;
+  }
+
+  .icon_sm {
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 15px;
+    padding-bottom: 60px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .foto_adalaber {
+    width: 278px;
+    height: 278px;
+    margin: 0px 15px;
+  }
+  .member_768_left {
+    margin-left: 138px;
+    margin-right: 300px;
+  }
+
+  .member_768_right {
+    margin-right: 138px;
+    margin-left: 300px;
+  }
+
+  .icon_sm {
+    padding-bottom: 37px;
+  }
+}
