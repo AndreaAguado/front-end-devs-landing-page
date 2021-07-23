@@ -3,6 +3,12 @@
 .container {
   margin-left: 15px;
   margin-right: 15px;
+  @media all and (min-width: 768px) {
+    margin: 0 45px;
+  }
+  @media all and (min-width: 1200px) {
+    margin: 0 300px;
+  }
 }
 
 .hero-bg {
@@ -10,117 +16,36 @@
   top: 0px;
   width: 100%;
   height: 421px;
+  @media all and (min-width: 768px) {
+    display: none;
+  }
+  @media all and (min-width: 1200px) {
+    display: none;
+  }
 }
 .hero-bg-768 {
   display: none;
-}
-.hero-bg-1200 {
-  display: none;
-}
-
-/* END HERO */
-
-@media all and (min-width: 768px) {
-  .container {
-    margin: 0 45px;
-  }
-  /* START HERO */
-  .hero-bg {
-    display: none;
-  }
-  .hero-bg-768 {
+  @media all and (min-width: 768px) {
     display: inline-block;
     top: 0px;
     width: 100%;
     height: 421px;
   }
-  .hero-bg-1200 {
+  @media all and (min-width: 1200px) {
     display: none;
   }
-  /* END HERO */
-
-  /* START MOTTO */
-  .motto-container {
-    width: 441px;
-    height: 80px;
-    opacity: 0.8;
-    top: 341px;
-    margin-left: 46px;
-    margin-right: 281px;
-  }
-  .motto {
-    margin: 15px 30px;
-  }
-
-  /* END MOTTO */
-
-  /* START ABOUT US */
-  .about-us {
-    background-color: var(--white);
-  }
-  .about-us-container {
-    background-color: var(--white);
-    margin-top: 15px;
-    margin-bottom: 44px;
-    padding-bottom: 0px;
-  }
-  .about-us-title {
-    margin-top: 45px;
-    margin-bottom: 15px;
-  }
-  /* END ABOUT US */
 }
-
-/* DESKTOP Y TABLET */
-@media all and (min-width: 1200px) {
-  .container {
-    margin: 0 300px;
-  }
-  /* START HERO */
-  .hero-bg {
+.hero-bg-1200 {
+  display: none;
+  @media all and (min-width: 768px) {
     display: none;
   }
-  .hero-bg-768 {
-    display: none;
-  }
-  .hero-bg-1200 {
+  @media all and (min-width: 1200px) {
     display: inline-block;
     top: 0px;
     width: 100%;
     height: 550px;
   }
-  /* END HERO */
-
-  /* START MOTTO */
-  .motto-container {
-    width: 574px;
-    height: 90px;
-    opacity: 0.8;
-    top: 460px;
-    margin-left: 138px;
-    margin-right: 488px;
-  }
-  .motto {
-    margin: 15px 30px;
-    font-size: 24px;
-    line-height: 30px;
-  }
-  /* END MOTTO */
-
-  /* START ABOUT US */
-  .about-us {
-    background-color: var(--white);
-  }
-  .about-us-container {
-    background-color: var(--white);
-    margin-top: 15px;
-    margin-bottom: 60px;
-    padding-bottom: 0px;
-  }
-  .about-us-title {
-    color: var(--dark-green);
-    margin-top: 45px;
-    margin-bottom: 15px;
-  }
-  /* END ABOUT US */
 }
+
+/* END HERO */
