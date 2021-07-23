@@ -338,59 +338,6 @@
     margin-bottom: 15px;
   }
   /* END ABOUT US */
-
-  /* START ADALABERS */
-  /*.members {
-      background-color: var(--white);
-      font-family: "Rubik", sans-serif;
-      text-align: center;
-    }
-  */
-  #who-we-are {
-    padding-top: 45px;
-    padding-bottom: 45px;
-  }
-
-  /*
-    .foto_adalaber1 {
-      width: 180px;
-      height: 180px;
-      padding-bottom: 15px;
-      border-radius: 20px;
-    }
-  
-    .foto_adalaber {
-      width: 180px;
-      height: 180px;
-      padding-bottom: 15px;
-  
-      border-radius: 20px;
-    }
-  
-    .parr {
-      color: var(--dark-grey);
-      font-family: "Open Sans", sans-serif;
-      font-size: 16px;
-      line-height: 24px;
-    }
-  
-    .style_name {
-      color: var(--black);
-      font-family: "Open Sans", sans-serif;
-      font-size: 20px;
-      padding-bottom: 10px;
-    }
-  
-    .icon_sm {
-      font-size: small;
-      padding-top: 15px;
-      padding-bottom: 30px;
-    }
-  
-    .icon_color {
-      color: var(--dark-green);
-    }
-    /* START ADALABERS */
 }
 
 /* DESKTOP Y TABLET */
@@ -417,6 +364,8 @@
   /* START ABOUT US */
   /* END ABOUT US */
 }
+
+/* START ADALABERS  768px and 1200px*/
 @media all and (min-width: 768px) {
   .member {
     margin: 0px 45px;
@@ -479,3 +428,4 @@
     padding-bottom: 37px;
   }
 }
+/* END ADALABERS */
