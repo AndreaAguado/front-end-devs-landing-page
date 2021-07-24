@@ -47,6 +47,36 @@
   text-transform: uppercase;
 }
 @media all and (min-width: 768px) {
+  .tittle {
+    display: flex;
+    position: fixed;
+    justify-content: left;
+    padding-left: 45px;
+    width: 26.693%;
+    border-bottom: none;
+    border-right: none;
+  }
+  .menu {
+    position: fixed;
+    transform: translateX(0);
+    width: 76.307%;
+    left: 26.693%;
+    background-color: $dark-green;
+    height: 60px;
+  }
+  .menu-nietos {
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .equipo {
+    padding-left: 224px;
+  }
+  .contacto {
+    padding-right: 45px;
+  }
 }
 
 @media all and (min-width: 1200px) {
