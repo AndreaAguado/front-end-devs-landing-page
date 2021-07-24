@@ -2,9 +2,9 @@
 /* START HEADER  */
 
 .tittle {
-  background-color: var(--dark-green);
+  background-color: $dark-green;
   opacity: 0.95;
-  color: var(--white);
+  color: $white;
   display: flex;
   position: fixed;
   align-items: center;
@@ -12,29 +12,29 @@
   box-sizing: border-box;
   width: 100%;
   height: 60px;
-  border: 1px solid var(--light-grey);
+  border: 1px solid $light-grey;
   text-transform: uppercase;
-  font-family: var(--second-font);
+  font-family: $second-font;
   font-size: 16px;
   line-height: 30px;
   z-index: 2;
 }
 
 .links-menu {
-  color: var(--white);
+  color: $white;
   text-decoration: none;
 }
 .menu {
-  background-color: var(--light-green);
+  background-color: $light-green;
   padding: 20px;
   opacity: 0.95;
   box-sizing: border-box;
   width: 100%;
   height: 45px;
-  border: 1px solid var(--light-grey);
+  border: 1px solid &light-grey;
   position: fixed;
   transform: translate(0, 130%);
-  font-family: var(--second-font);
+  font-family: $second-font;
   font-size: 15px;
   z-index: 2;
 }
