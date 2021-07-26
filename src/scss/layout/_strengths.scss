@@ -1,5 +1,44 @@
 /* STRENGTHS AND WEAKNESSES */
 .fyd {
   background-color: rgba(184, 184, 185, 0.2);
+  position: absolute;
+  box-sizing: border-box;
+  left: 50%;
+  top: 50%;
 }
+.texto-f {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #54585a;
+  line-height: 1.5;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+.texto-d {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #54585a;
+  line-height: 1.5;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+.fortalezas {
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  color: #099d8d;
+  text-transform: capitalize;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.debilidades {
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  color: #099d8d;
+  text-transform: capitalize;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
 /* END STRENGTHS AND WEAKNESSES */
