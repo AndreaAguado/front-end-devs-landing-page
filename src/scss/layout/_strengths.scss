@@ -2,10 +2,12 @@
 .square {
   width: 30px;
   height: 30px;
-  transform: rotate(45deg);
+  transform: translateX(50vw) rotate(45deg);
+
   background-color: #ffffff;
-  position: relative;
+  /*position: relative;
   left: 163px;
+  position: absolute;*/
   @media all and (min-width: 320px) {
     height: 30px;
     width: 390x;
@@ -19,21 +21,16 @@
 }
 .fondo-fyd {
   background-color: rgba(184, 184, 185, 0.2);
-  position: absolute;
-  @media all and (min-width: 320px) {
-    height: 500px;
-    width: 100%;
-    padding: 30px 15px 30px;
-    margin: 35px 0 0;
-  }
+
+  width: 100%;
+
+  padding: 30px 15px 30px;
+  margin: 35px 0 0;
   @media all and (min-width: 768px) {
-    width: 768px;
-    height: 333px;
     margin: 16px 0 0;
     padding: 45px 44px 60px;
   }
 }
-
 .fyd {
   box-sizing: border-box;
   left: 50%;
@@ -83,8 +80,17 @@
       margin: 15px 30px;
     }
   }
-  @media all and (min: width 768px) {
+  @media all and (min-width: 768px) {
+    box-sizing: border-box;
+    width: 100%;
     display: flex;
+
+    .fortalezas-f {
+      width: 50%;
+    }
+    .debilidades-d {
+      width: 50%;
+    }
   }
 }
 
