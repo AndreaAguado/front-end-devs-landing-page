@@ -60,11 +60,18 @@
   }
 }
 .paragraphs {
+  background-color: purple;
   color: #54585a;
   text-align: center;
   font-size: 16px;
   line-height: 24px;
   font-family: "Open Sans", sans-serif;
+  @media all and (min-width: 768px) {
+    margin-bottom: 60px;
+  }
+  @media all and (min-width: 1200px) {
+    margin-bottom: 60px;
+  }
 }
 /* END ABOUT US */
 
