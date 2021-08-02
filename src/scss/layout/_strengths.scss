@@ -1,28 +1,28 @@
 /* STRENGTHS AND WEAKNESSES */
 
-.container_square {
-  // background-color: seagreen;
-  text-align: center;
-  transform: translateY(-45px);
-  @media all and (min-width: 768px) {
-    transform: translateY(-60px);
-  }
-}
-.square {
-  width: 30px;
-  height: 30px;
-  transform: translateY(0px) rotate(45deg);
-  display: inline-block;
-  background-color: $white;
-  // background-color: slateblue;
-  margin: auto;
-}
+// .container_square {
+//   background-color: seagreen;
+//   text-align: center;
+//   transform: translateY(-45px);
+//   @media all and (min-width: 768px) {
+//     transform: translateY(-60px);
+//   }
+// }
+// .square {
+//   width: 30px;
+//   height: 30px;
+//   transform: translateY(0px) rotate(45deg);
+//   display: inline-block;
+//   background-color: $white;
+//   background-color: slateblue;
+//   margin: auto;
+// }
 
 .fondo-fyd {
   background-color: rgba(184, 184, 185, 0.2);
   width: 100%;
   padding: 30px 15px 30px;
-  margin: 35px 0 0;
+  // margin: 35px 0 0;
   @media all and (min-width: 768px) {
     margin: 16px 0 0;
     padding: 45px 44px 60px;
@@ -50,7 +50,7 @@
     line-height: 24px;
     margin-left: 15px;
     margin-right: 15px;
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
     text-align: center;
   }
   .fortalezas {
