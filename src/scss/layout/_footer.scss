@@ -12,7 +12,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas: "small menu" "image menu";
+    grid-template-areas: "small menu" "adalab-logo menu";
   }
 }
 
@@ -31,6 +31,7 @@
   }
   @media all and (min-width: 1200px) {
     margin-bottom: 15px;
+    margin: 30px 0px 15px 138px;
   }
 }
 
@@ -40,6 +41,11 @@
     text-align: right;
     margin: 24px 45px 56px 0px;
   }
+  @media all and (min-width: 1200px) {
+    grid-area: menu;
+    text-align: right;
+    margin: 24px 138px 47px 0px;
+  }
 }
 .footer-menu {
   text-decoration: none;
@@ -48,35 +54,21 @@
   font-size: 14px;
   line-height: 30px;
   text-transform: uppercase;
-
-  @media all and (min-width: 768px) {
-  }
 }
 
-/*.image {
-  /*width: 115.9px;*/
-/*margin-top: 30px;
-  margin-bottom: 45px;*/
-/*@media all and (min-width: 768px) {
-    grid-area: image;
-    margin: 0px 0px 60px 45px;
-    align-self: start;
-    justify-self: start;
-  }
-  @media all and (min-width: 1200px) {
-    margin-top:15px;
-    height:45px;
-  }
-}*/
 .image1 {
   width: 115.9px;
   margin-top: 30px;
   margin-bottom: 45px;
   @media all and (min-width: 768px) {
-    grid-area: image;
-    margin: 0px 0px 60px 45px;
-    align-self: start;
-    justify-self: start;
+    grid-area: adalab-logo;
+    margin: 0px 0px 60px 36px;
+    float: left;
+  }
+  @media all and (min-width: 1200px) {
+    grid-area: adalab-logo;
+    margin: 0px 0px 60px 125px;
+    float: left;
   }
 }
 /* END FOOTER */
