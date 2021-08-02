@@ -67,7 +67,7 @@ input[type="text"],
   border: solid 1px $light-grey;
   height: 45px;
   padding-left: 15px;
-  color: $light-grey;
+  color: $dark-grey;
   font-size: 14px;
 }
 input,
@@ -109,11 +109,18 @@ label {
     width: 278px;
   }
 }
-.email::placeholder {
-  font-weight: 700;
-  font-size: 16px;
-}
 
 .asterisk {
   color: $dark-green;
+}
+
+input::placeholder {
+  color: $light-grey;
+}
+textarea::placeholder {
+  color: $light-grey;
+}
+.email::placeholder {
+  font-size: 16px;
+  color: $dark-grey;
 }
