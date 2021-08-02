@@ -6,21 +6,17 @@
 .square {
   width: 30px;
   height: 30px;
-  transform: rotate(45deg);
+  transform: translateY(-45px) rotate(45deg);
   display: inline-block;
   background-color: #ffffff;
   margin: auto;
-
-  /*position: relative;
-  left: 163px;
-  position: absolute;*/
   @media all and (min-width: 320px) {
-    height: 30px;
-    width: 390x;
+    // height: 30px;
+    // width: 390x;
   }
   @media all and (min-width: 768px) {
-    height: 30px;
-    width: 30px;
+    // height: 30px;
+    // width: 30px;
   }
 }
 .fondo-fyd {
