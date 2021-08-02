@@ -2,7 +2,6 @@
 
 .footer {
   width: 100%;
-  height: 250px;
   box-sizing: border-box;
   border: 1px solid $light-grey;
   display: flex;
@@ -10,11 +9,10 @@
   align-items: center;
   text-align: center;
   @media all and (min-width: 768px) {
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-  @media all and (min-width: 1200px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "small menu" "image menu";
   }
 }
 
@@ -22,24 +20,25 @@
   width: auto;
   color: $light-grey;
   font-size: 14px;
+  line-height: 20px;
   font-family: $main-font;
   margin-top: 30px;
   margin-bottom: 20px;
   @media all and (min-width: 768px) {
+    grid-area: small;
+    justify-self: start;
+    margin: 30px 0px 15px 45px;
   }
   @media all and (min-width: 1200px) {
+    margin-bottom: 15px;
   }
 }
 
 .footer-nav {
-  margin-bottom: 30px;
   @media all and (min-width: 768px) {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  @media all and (min-width: 1200px) {
+    grid-area: menu;
+    text-align: right;
+    margin: 24px 45px 56px 0px;
   }
 }
 .footer-menu {
@@ -49,21 +48,35 @@
   font-size: 14px;
   line-height: 30px;
   text-transform: uppercase;
+
+  @media all and (min-width: 768px) {
+  }
 }
 
-.image {
-  width: 115.9px;
-  height: 45px;
-  margin-bottom: 45px;
-  @media all and (min-width: 768px) {
-    margin-top: 15px;
-    margin-bottom: 60px;
+/*.image {
+  /*width: 115.9px;*/
+/*margin-top: 30px;
+  margin-bottom: 45px;*/
+/*@media all and (min-width: 768px) {
+    grid-area: image;
+    margin: 0px 0px 60px 45px;
+    align-self: start;
+    justify-self: start;
   }
   @media all and (min-width: 1200px) {
-    margin-top: 15px;
-    width: auto;
-    height: 45px;
+    margin-top:15px;
+    height:45px;
+  }
+}*/
+.image1 {
+  width: 115.9px;
+  margin-top: 30px;
+  margin-bottom: 45px;
+  @media all and (min-width: 768px) {
+    grid-area: image;
+    margin: 0px 0px 60px 45px;
+    align-self: start;
+    justify-self: start;
   }
 }
-
 /* END FOOTER */
