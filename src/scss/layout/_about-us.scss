@@ -21,18 +21,16 @@
 .about-us-container {
   text-align: center;
   background-color: $white;
-  margin-bottom: 30px;
-  /* padding-bottom: 30px; */
+  // margin-bottom: 30px;
+  margin-bottom: 14.2px;
   @media all and (min-width: 768px) {
     margin-top: 15px;
     margin-bottom: 44px;
-    padding-bottom: 0px;
   }
   @media all and (min-width: 1200px) {
     background-color: $white;
     margin-top: 15px;
-    margin-bottom: 60px;
-    padding-bottom: 0px;
+    margin-bottom: 44px;
   }
 }
 
@@ -60,11 +58,11 @@
   }
 }
 .paragraphs {
-  color: #54585a;
+  color: $dark-grey;
   text-align: center;
   font-size: 16px;
   line-height: 24px;
-  font-family: "Open Sans", sans-serif;
+  font-family: $main-font;
   @media all and (min-width: 768px) {
     margin-bottom: 60px;
   }
@@ -73,9 +71,3 @@
   }
 }
 /* END ABOUT US */
-
-/* START SQUARE */
-
-/* margin-top: -14px; */
-
-/* END SQUARE */
