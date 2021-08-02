@@ -6,98 +6,64 @@
   box-sizing: border-box;
   border: 1px solid $light-grey;
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   text-align: center;
-}
-@media all and (min-width: 768px) {
-  .footer {
-    width: 100%;
-    height: 170px;
-    display: block;
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
   }
-}
-@media all and (min-width: 1200px) {
-  .footer {
-    width: 100%;
-    height: 161px;
-  }
-}
-.nombre {
-  width: auto;
-  height: 20;
-  color: $light-grey;
-  font-size: 14px;
-  font-family: $main-font;
-  padding-top: 30px;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-@media all and (min-width: 768px) {
-  .nombre {
-    padding-top: 30px;
-    padding-left: 45px;
-    padding-right: 182px;
-    width: auto;
-    float: left;
-  }
-}
-@media all and (min-width: 1200px) {
-  .nombre {
-    padding-left: 138px;
-    padding-right: 428px;
-  }
-}
-.footer-nav {
-  width: auto;
-  height: 60px;
-}
-@media all and (min-width: 768px) {
-  .footer-nav {
-    padding-top: 24px;
-    padding-bottom: 56px;
-    padding-right: 45px;
-    width: auto;
-    float: right;
-    text-align: right;
-  }
-}
-@media all and (min-width: 1200px) {
-  .footer-nav {
-    padding-top: 24px;
-    padding-bottom: 47px;
-    padding-right: 138px;
+  @media all and (min-width: 1200px) {
   }
 }
 
+.nombre {
+  width: auto;
+  color: $light-grey;
+  font-size: 14px;
+  font-family: $main-font;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  @media all and (min-width: 768px) {
+  }
+  @media all and (min-width: 1200px) {
+  }
+}
+
+.footer-nav {
+  margin-bottom: 30px;
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  @media all and (min-width: 1200px) {
+  }
+}
 .footer-menu {
   text-decoration: none;
   color: $dark-grey;
   font-family: $main-font;
   font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
 }
+
 .image {
   width: 115.9px;
   height: 45px;
-}
-@media all and (min-width: 768px) {
-  .image {
-    padding-top: 15px;
-    padding-left: 45px;
-    padding-right: 182px;
+  margin-bottom: 45px;
+  @media all and (min-width: 768px) {
+    margin-top: 15px;
+    margin-bottom: 60px;
+  }
+  @media all and (min-width: 1200px) {
+    margin-top: 15px;
     width: auto;
     height: 45px;
-    float: left;
   }
 }
-@media all and (min-width: 1200px) {
-  .image {
-    padding-left: 138px;
-    padding-top: 15px;
-    padding-right: 484px;
-    width: auto;
-    height: 45px;
-    float: left;
-  }
-}
+
 /* END FOOTER */
