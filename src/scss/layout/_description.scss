@@ -11,7 +11,6 @@
     text-align: center;
     background-color: $white;
     margin-bottom: 30px;
-    // height: 144px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -26,7 +25,6 @@
       padding-bottom: 30px;
     }
     .contact-small-print {
-      background-color: salmon;
       font-family: $main-font;
       color: $dark-grey;
       font-size: 12px;
@@ -36,14 +34,12 @@
       color: $light-green;
     }
     @media all and (min-width: 768px) {
-      // height: 120px;
       margin-top: 15px;
       margin-bottom: 44px;
       margin-left: 163px;
       margin-right: 163px;
     }
     @media all and (min-width: 1200px) {
-      // height: 96px;
       background-color: $white;
       margin-top: 15px;
       margin-bottom: 58px;
