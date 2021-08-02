@@ -1,36 +1,31 @@
-<form class="form" action="" method="post">
+<div class="container_form">
+    <form class="form" action="" method="post">
+        <!--formspree-->
 
-    <fieldset class=" form__name">
-
-
-        <label for="Name">Nombre completo <span class="asterisk">*</span> </label>
+        <label for="name">Nombre completo <span class="asterisk">*</span> </label>
         <input placeholder="Nombre..." id="Name" type="text" name="nombre" required>
+
+
+        <div class="desktop">
+            <div class=" box1"><label for="email">Email <span class="asterisk">*</span></label>
+                <input class="email" placeholder="nombre.apellidos@mail.com" id="email" type="email" name="email"
+                    required>
+
+            </div>
+            <div class=" box2"><label for="tel">Teléfono </label>
+                <input class="tel" placeholder="Ej: 123456789" id="telefono" type="tel" name="tel" required>
+            </div>
 
         </div>
 
-        <fieldset class="form__email">
 
-            <label for="email">Email <span class="asterisk">*</span></label>
-            <input class="email" placeholder="nombre.apellidos@mail.com" id="email" type="email" name="email" required>
+        <label for="comments">Mensaje <span class="asterisk">*</span></label>
+        <textarea placeholder="¿Qué necesitas?" id="comments" name="mensaje" rows="8" cols="45"></textarea>
 
-        </fieldset>
 
-        <fieldset class="form__phone">
 
-            <label for="telefono">Teléfono </label>
-            <input placeholder="Ej: 123456789" id="telefono" type="tel" name="tel" required>
+        <input class="submit" type="submit" value="Enviar">
 
-        </fieldset>
 
-        <fieldset class="form__text">
-
-            <label for="comments">Mensaje <span class="asterisk">*</span></label>
-            <textarea placeholder="¿Qué necesitas?" id="comments" name="mensaje" rows="8" cols="45"></textarea>
-
-        </fieldset>
-        <fieldset class="form__submit">
-
-            <input type="submit" value="Enviar">
-
-        </fieldset>
-</form>
+    </form>
+</div>

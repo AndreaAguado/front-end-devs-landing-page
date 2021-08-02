@@ -1,69 +1,64 @@
-@mixin flexColumnCentered {
+.container_form {
+  margin: 0 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
-}
-
-@mixin flexRowCentered {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
-}
 
+  @media (min-width: 768px) {
+    margin: 0 163px;
+  }
+
+  @media (min-width: 1200px) {
+    margin: 0 300px;
+  }
+}
 .form {
-  @include flexColumnCentered();
   padding-top: 30px;
   padding-bottom: 60px;
   width: 250px;
-  margin: 0 15px;
+  width: 100%;
 }
 
-/*
-@media all and (min-width: 768px) {
-  .form {
-    width: 100%;
-    @include flexColumnCentered();
-    &__name {
-      @include flexRowCentered();
+.desktop {
+  @media (min-width: 1200px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .box1 {
+    @media (min-width: 1200px) {
+      margin-right: 45px;
     }
-    &__email {
-      @include flexRowCentered();
-    }
-    &__phone {
-      @include flexRowCentered();
-    }
-    &__text {
-      @include flexRowCentered();
-    }
-    &__submit {
-      @include flexRowCentered();
-    }
-  } */
+  }
+}
+
+.email {
+  @media (min-width: 1200px) {
+    width: 395px;
+  }
+}
+.tel {
+  @media (min-width: 1200px) {
+    width: 162px;
+  }
+}
 
 input[type="text"],
 [type="email"],
 [type="tel"] {
   border: solid 1px $light-grey;
   height: 45px;
-  width: 100%;
+
   padding-left: 15px;
-  /*
-    @media all and (min-width: 768px) {
-      width: 442px;
-    } */
 }
 input,
 textarea {
+  box-sizing: border-box;
   width: 100%;
   height: 105px;
   border: solid 1px $light-grey;
   padding-left: 15px;
-  /*
-    @media all and (min-width: 768px) {
-      width: 442px;
-    }*/
 }
 
 label {
@@ -71,9 +66,7 @@ label {
   padding-bottom: 5px;
   display: inline-block;
   font-size: 14px;
-  /*@media all and (min-width: 768px) {
-      display: block;
-    }*/
+  font-family: inherit;
 }
 input[type="submit"] {
   margin-top: 30px;
@@ -85,10 +78,16 @@ input[type="submit"] {
   width: 100%;
   height: 45px;
   padding: 0;
-  /*
-    @media all and (min-width: 768px) {
-      width: 206px;
-    }*/
+  border-radius: 4px;
+
+  @media all and (min-width: 768px) {
+    width: 206px;
+    margin-left: 236px;
+  }
+  @media (min-width: 1200px) {
+    margin-left: 323px;
+    width: 278px;
+  }
 }
 .email::placeholder {
   font-weight: 700;
