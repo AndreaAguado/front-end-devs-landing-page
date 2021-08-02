@@ -27,7 +27,6 @@
     justify-content: space-between;
   }
   .box1 {
-    background-color: pink;
     @media (min-width: 768px) {
       display: flex;
       flex-direction: column;
@@ -38,7 +37,6 @@
     }
   }
   .box2 {
-    background-color: plum;
     @media (min-width: 768px) {
       display: flex;
       flex-direction: column;
@@ -91,7 +89,7 @@ label {
 }
 .submit {
   margin-top: 30px;
-  color: #ffffff;
+  color: $white;
   background-color: $dark-green;
   text-transform: uppercase;
   font-weight: 500;
