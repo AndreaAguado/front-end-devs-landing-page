@@ -27,20 +27,37 @@
     justify-content: space-between;
   }
   .box1 {
+    background-color: pink;
+    @media (min-width: 768px) {
+      display: flex;
+      flex-direction: column;
+    }
     @media (min-width: 1200px) {
-      margin-right: 45px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .box2 {
+    background-color: plum;
+    @media (min-width: 768px) {
+      display: flex;
+      flex-direction: column;
+    }
+    @media (min-width: 1200px) {
+      display: flex;
+      flex-direction: column;
     }
   }
 }
 
 .email {
   @media (min-width: 1200px) {
-    width: 395px;
+    min-width: 395px;
   }
 }
 .tel {
   @media (min-width: 1200px) {
-    width: 162px;
+    min-width: 162px;
   }
 }
 
