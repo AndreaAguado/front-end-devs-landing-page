@@ -48,18 +48,13 @@ Para navegar más comodamente y entender mejor el proyecto, aquí les dejo como 
 
   - images
 
-    - background-2.jpg
-    - background-768.jpg
-    - background-1200.jpg
-    - background.jpg
-    - IMG_2527.jpg
-    - IMG_2528.jpg
-    - IMG_2529.jpg
-    - IMG_2530.jpg
+    - adalaber1.jpg
+    - adalaber2.jpg
+    - adalaber3.jpg
+    - adalaber4.jpg
+    - background-final.jpg
     - logo-adalab.png
-    - contacto-5.jpg
-    - contacto.jpg
-   
+    - contact.jpg
     
 
   - scss
@@ -75,11 +70,18 @@ Para navegar más comodamente y entender mejor el proyecto, aquí les dejo como 
       - \_header.scss
       - \_hero.scss
       - \_adalabers.scss 
-      - \_page.scss 
+      - \_about-us.scss
+      - \_contact-hero.scss
+      - \_description.scss
+      - \_form.scss
+      - \_motto.scss
+      - \_strengths.scss
+      - \_square.scss
       
+        
     - main.scss
 
 Aquí les dejamos el link de la landing page: http://beta.adalab.es/project-promo-n-module-1-team-4/
 
-## Gracias por vuestra atención! Si tienen cualquier duda o pregunta, pueden escribirnos un PR! 
+## Gracias por vuestra atención! Si tienen cualquier duda o pregunta, pueden escribirnos un mensaje privado! 
 
