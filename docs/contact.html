@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="./assets/css/main.css">
     <title>Contacto</title>
 </head>
+
 <body>
     <!-- START HEADER -->
     <header>
       <h1 class="tittle">4-4-1</h1>
-      <!--fuente de letra -->
-
       <nav class="menu">
         <ul class="menu-nietos">
           <li class="equipo">
@@ -36,29 +40,71 @@
     <!-- END HERO -->
 
     <!-- DESCRIPCION -->
-    
+    <section class="contact-description">
+        <h2 class="contact-description-title" >Contacto</h2>
+        <div class="container contact-description-container">
+            <p class="contact-paragraphs">
+                Si deseas que un equipo comprometido, organizado, competente y capaz de enfrentarse a cualquier reto colabore con tu empresa, no dudes en ponerte en contacto con nosotras enviándonos un mensaje a través del siguiente formulario.
+            </p>     
+            <small class="contact-small-print">Todos los campos marcados con <span class="ast">*</span> son obligatorios </small>
+        </div>
+
+
+    </section>
     <!-- END DESCRIPCION -->
 
     <!-- FORMULARIO -->
-    
+    <div class="container_form">
+        <form class="form" action="https://formspree.io/f/xnqlgzzb" method="post">
+          
+
+            <label for="name">Nombre completo <span class="asterisk">*</span> </label>
+            <input placeholder="Nombre..." id="Name" type="text" name="nombre" required>
+
+
+            <div class="desktop">
+                <div class=" box1"><label for="email">Email <span class="asterisk">*</span></label>
+                    <input class="email" placeholder="nombre.apellidos@mail.com" id="email" type="email" name="email"
+                        required>
+                </div>
+                <div class="box2"><label for="tel">Teléfono </label>
+                    <input class="tel" placeholder="Ej: 123456789" id="telefono" type="tel" name="tel" required>
+                </div>
+            </div>
+
+
+            <label for="comments">Mensaje <span class="asterisk">*</span></label>
+            <textarea placeholder="¿Qué necesitas?" id="comments" name="mensaje" rows="8" cols="45"></textarea>
+
+
+
+            <input class="submit" type="submit" value="Enviar">
+
+
+        </form>
+    </div>
     <!-- FORMULARIO -->
 
     <!-- START FOOTER -->
     <footer class="footer">
 
-      <small class="nombre">4-4-1 &copy; 2021</small>
-      ​
-      <nav>
-          <ul class="footer-nav">
-              <li><a class="footer-menu" href="./index.html#about-us">Equipo</li>
-              <li><a class="footer-menu" href="./index.html#who-we-are">Quienes Somos<a></li> 
-              <li><a class="footer-menu" href="./contact.html">Contacto<a></li>
-          </ul>
-      </nav>
-      <img class="image" src="./assets/images/logo-adalab.png" alt="logo de adalab">
+      <!--<div>--><small class="nombre">4-4-1 &copy; 2021</small> <!--</div>-->
+      <!--<div>-->
+        <nav class="footer-nav">
+            <ul >
+                <li><a class="footer-menu" href="./index.html#about-us">Equipo</li>
+                <li><a class="footer-menu" href="./index.html#who-we-are">Quienes Somos<a></li>
+                <li><a class="footer-menu" href="./contact.html">Contacto<a></li>
+            </ul>
+        </nav>
+      <!--</div>-->
+
+        <img class="image1" src="./assets/images/logo-adalab.png" alt="logo de adalab">
+
 
     </footer>
 
     <!-- END FOOTER -->
 </body>
+
 </html>
