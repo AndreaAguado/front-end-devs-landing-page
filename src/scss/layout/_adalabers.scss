@@ -16,6 +16,9 @@
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
+  @media all and (min-width: 768px) {
+    padding-top: 0px;
+  }
 }
 
 .box_members {
@@ -92,6 +95,14 @@
     width: 205px;
     height: 205px;
     margin: 0px 15px;
+  }
+  .desktop-photo {
+    @media all and (min-width: 768px) {
+      padding-bottom: 63px;
+    }
+    @media all and (min-width: 1200px) {
+      padding-bottom: 60px;
+    }
   }
 
   .box_description {
