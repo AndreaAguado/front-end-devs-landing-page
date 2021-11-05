@@ -81,6 +81,6 @@ Para navegar más comodamente y entender mejor el proyecto, aquí les dejo como 
         
     - main.scss
 
-Aquí les dejamos el link de la landing page: http://beta.adalab.es/project-promo-n-module-1-team-4/
+Aquí les dejamos el link de la landing page: https://andreaaguado.github.io/front-end-devs-landing-page/
 
 ## Gracias por vuestra atención! Si tienen cualquier duda o pregunta, pueden escribirnos un mensaje privado! 
